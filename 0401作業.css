@@ -1,0 +1,44 @@
+ table {
+        border-collapse: separate;
+        /* border-collapse: collapse; */
+
+         
+                 border: 1px solid black; 
+
+        }
+    th, td {
+        border: 1px solid black; 
+        padding: 8px;            
+        }
+
+body{
+    font-family:"標楷體", "DFKai-SB", serif;       
+}
+th, td{
+            border: 1px solid;
+            white-space: pre-line;
+            text-align: center;
+            padding: 5px;
+}
+
+
+ table{
+    
+    border-collapse:collapse;
+} 
+
+
+.justify{
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.vt{
+    writing-mode: vertical-lr;
+}
+.fsize13{
+    font-size: 13px;
+}
+.week{
+    width: 64px;
+}
