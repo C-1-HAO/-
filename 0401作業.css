@@ -42,3 +42,14 @@ th, td{
 .week{
     width: 64px;
 }
+
+table {
+  table-layout: fixed; /* 強制固定佈局 */
+  width: 80%;        /* 必須給表格一個總寬度 */
+  border-collapse: collapse;
+}
+
+/* 針對每一欄設定比例 */
+.day-group-col {
+  width: %; /* 假設 100% 除以 7 欄，每欄大約 14% */
+} 
