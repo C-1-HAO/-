@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formeork</title>
+</head>
+<link rel="stylesheet" href="/css/rest.css">
+<link rel="stylesheet" href="/css/Formwork.css">
+<body> 
+    <thead>
+      <h1>F2E02表單練習</h1>
+      <div>僅供新尖兵 F2E02 表單切版練習作業</div>
+      <hr/>
+      <div style="color:#5e5e5e;">yam60105@gmail.com 
+      <u style="color:#0b57d0;">切換帳戶</u>
+      </div>
+      <br/>
+      <div style="color:#5e5e5e;">未共用的項目</div>
+      <hr/>
+      <div style="color:#db372d;">* 表示必填問題</div>
+    </thead>
+
+    <tbody>
+      <span>姓名</span> <span style="color:#db372d;">*</span>
+      <div><input class="input-box" placeholder="您的回答" required></div>
+
+      <span>信箱</span> <span style="color:#db372d;">*</span>
+      <div><input class="input-box" type="email"  placeholder="您的回答" required></div>
+      
+      <div>生日</div>
+      <div><input type="date"></div>
+      
+      <div>想跟老師說悄悄話</div>
+      <div><input class="input-box" type="answer" placeholder="您的回答" required></div>
+      
+      <div>喜歡的顏色</div>
+      <div><input type="radio" name="color" value="red"> 黃色</div>
+      <div><input type="radio" name="color" value="blue"> 綠色</div>
+      <div><input type="radio" name="color" value="green"> 紅色</div>
+      
+      <div>喜歡吃的飲食類型</div>
+      <div><input type="checkbox" name="food" value="">中式</div>
+      <div><input type="checkbox" name="food" value="">義式</div>
+      <div><input type="checkbox" name="food" value="">日式</div>
+      <div><input type="checkbox" name="food" value="">韓式</div>
+      <div><input type="checkbox" name="food" value="">美式</div>
+      <div><input type="checkbox" name="food" value="">泰式</div>
+
+      <div>最想去的國家 (使用 optgroup 將選項分為不同洲)</div>
+      <select>
+        <optgroup label="亞洲">
+          <option value="korea">韓國</option>
+          <option value="japan">日本</option>
+          <option value="taiwan">台灣</option>
+        </optgroup>
+        <optgroup label="歐洲">
+          <option value="france">法國</option>
+          <option value="germany">德國</option>
+          <option value="italy">義大利</option>
+        </optgroup>
+      </select>
+      </div>
+    </tbody>
+
+    <tfoot>
+      <div>
+        <input type="button"  value="提交" style="background-color:rgb(103, 58, 183);; color:white; border:none; padding:10px 20px; border-radius:4px; cursor:pointer;">
+        <input type="button"  value="清除表單" style="background-color:white; color:rgb(103, 58, 183); border:none; padding:10px 20px; border-radius:4px; cursor:pointer;">
+      </div>
+
+      <div>請勿利用 Google 表單送出密碼。</div>
+      <div>這份表單是在 五倍紅寶石程式資訊教育股份有限公司 中建立。 - <u>聯絡表單擁有者</u> </div> 
+      <div>這份表單很可疑嗎？ <u>報告</u></div>
+      <div>Google 表單</div>
+    </tfoot>
+</body>
+</html>
