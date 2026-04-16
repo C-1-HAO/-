@@ -1,0 +1,137 @@
+ *, *::before, *::after {
+  box-sizing: border-box;
+} 
+
+body{
+  background-color:rgb(239, 235, 247) ;
+  margin: 0;
+
+}
+
+
+.form-container {
+  margin: 12px auto;
+  background-color: #fff;
+  border: 1px solid #dadada ;
+  border-radius: 8px;
+  padding: 24px;
+  width: 640px;
+  position: relative;
+  overflow: hidden;
+}
+
+.top-decoration{
+  top: -0.9px;
+  left:-0.9px;
+  height: 10px;
+  width: 100%;
+  background-color: rgb(97, 60, 177);
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  position: absolute;
+}
+
+hr{
+  border-top: 1px solid  #dadce0;
+  margin: 5px -24px;
+}
+
+.form-blocks{
+  margin: 12px auto;
+  background-color: #fff;
+  border: 1px solid #dadada;
+  border-radius: 8px;
+  padding: 24px;
+  width: 100%;
+}
+
+.form-questions{
+  margin-bottom: 16px;
+}
+
+
+.input-box {
+  font-size: 14px;
+  color: #1f1f1f;
+  border-bottom: 1px solid #dadce0;
+  width: 295px;
+} 
+
+.date-box{
+  font-size: 14px;
+  color: #1f1f1f;
+  border-bottom: 1px solid #dadce0;
+  width: 150px;
+}
+
+.select-stylr {
+  margin-bottom: 16px;
+}
+
+.select-box {
+  font-size: 14px;
+  color: #1f1f1f;
+  border: 1px solid #dadce0;
+  border-radius: 4px;
+  padding: 8px 48px 8px 16px;
+  width: 150px;
+}
+
+.form-function-btns {
+  margin: 12px auto 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  padding: 10px 0;   
+}
+
+.submit-btn {
+  border-radius: 4px;
+  font-size: 14px;
+  background-color: rgb(97, 60, 177);
+  color: #fff;
+  width: 76.5px;
+  height: 36px;
+}
+
+.clear-form {
+  font-size: 14px;
+  padding: 0 8px;
+  color: rgb(97, 60, 177);
+  text-decoration: nowrap; 
+}
+
+.warming {
+  margin: 12px auto 0;
+  width: 640px;
+  font-size: 12px;
+  color: rgb(82,80,84);
+  text-align:  left;
+}
+
+.form-container1 {
+  margin: 16px auto;
+  width: 640px;
+  font-size: 12px;
+  color: rgb(82,80,84);
+  text-align: center;
+} 
+
+.google-form{
+  margin: 24px auto;
+  width: 640px;
+  font-size: 22px;
+  color: rgb(108,106,111);
+  text-align: center;}
+
+
+
+  .hintBlock{
+    color: gray;
+    text-align:right;
+    cursor:pointer ;
+    display: block;
+    font-size: 14px;
+    margin-top: 8px;
+  }
