@@ -1,10 +1,11 @@
 section{
 margin: 100px;
+height: 100%;
 }
 
 .grid-area1{
   background-color: #ffffff;
-  height: 400px;
+  height: 1010px;
   display: grid;
   grid-template-areas:
     "box1 box2 box4 box6"
@@ -15,53 +16,83 @@ margin: 100px;
 
 .box {
   border-radius: 10px;
-  /* overflow: hidden;  */
+  overflow: hidden;  
 }
 
-.box1{
-  background-color: #898484; 
+.box1 {
+  height: 230px;
+  left: 330px;
   grid-area: box1;
   margin: 10px;
+  background-image: url("https://image.cdn-eztravel.com.tw/CsA2Go4BN9OvVkDgWEKu4RYhCz4Z-HeISatUOi3YZFU/g:ce/q:95/aHR0cHM6Ly9ldmVudC5jZG4tZXp0cmF2ZWwuY29tLnR3L2hwaW1nL2FwcC81NjB4ODIwLzU2MHg4MjBfMjAyNjA1YnJvczIuanBn.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.box2{
-  background-color: #898484; 
+.box2 {
   grid-area: box2;
   margin: 10px;
+  background-image: url("https://image.cdn-eztravel.com.tw/JCAuMapcoCjT9OwUwH6F8iyvjx8Ru1LpuAOj_lFeFLI/g:ce/q:95/aHR0cHM6Ly92YWNhdGlvbi5jZG4tZXp0cmF2ZWwuY29tLnR3L2ltZy9WRFIvQ1pfMjA2MzE5MzcwLmpwZw.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.box3{
-  background-color: #898484; 
+.box3 {
   grid-area: box3;
   margin: 10px;
+  background-image: url("https://image.cdn-eztravel.com.tw/KYU7NGY8cykO65XGDhWC3l9FUyxiojyuZNgME-R9Oms/g:ce/q:95/aHR0cHM6Ly9ldmVudC5jZG4tZXp0cmF2ZWwuY29tLnR3L2hwaW1nL2hwL2Jhbm5lci8yMzB4MTA0LzIzMHgxMDRfMjAyMTA4MTJBLnBuZw.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.box4{
-  background-color: #898484; 
+.box4 {
   grid-area: box4;
   margin: 10px;
+  background-image: url("https://image.cdn-eztravel.com.tw/Hn4gYjaYym7bq9-GZsmFRqYyA7c2MPDLaSLsVJZ6jmo/g:ce/q:95/aHR0cHM6Ly9ldmVudC5jZG4tZXp0cmF2ZWwuY29tLnR3L2hwaW1nL2hwL2Jhbm5lci8yMzB4MTA0LzIzMHgxMDRfMjAyMzAzMjhBLnBuZw.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .box5{
-  background-color: #898484; 
   grid-area: box5;
   margin: 10px;
+  background-image: url("https://image.cdn-eztravel.com.tw/RDL3lpPJ97wz5kMa_yVNiDjeR0wvht6wNMXFY4dmxqI/g:ce/q:95/aHR0cHM6Ly9ldmVudC5jZG4tZXp0cmF2ZWwuY29tLnR3L2hwaW1nL2hwL2Jhbm5lci8yMzB4MjEwLzIzMHgyMTBfMjI4XzAxMDYuanBn.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .box6{
-  background-color: #898484; 
   grid-area: box6;
   margin: 10px;
+  background-image: url("https://image.cdn-eztravel.com.tw/dEMw5W7QSKkCVuJ74qTbBcFLY8v6TxteXNKL4uL64Bs/g:ce/q:95/aHR0cHM6Ly9ldmVudC5jZG4tZXp0cmF2ZWwuY29tLnR3L2hwaW1nL2FwcC8yNjZ4MjAwLzI2NngyMDBfMjAyNlRURS5qcGc.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right center;
 }
 .box7{
-  background-color: #898484; 
   grid-area: box7;
   margin: 10px;
+  background-image: url("https://image.cdn-eztravel.com.tw/0IQrFcwVYp1UvFFq7J-fF23FEW3vy7ENYFQ9EnI--LM/g:ce/q:95/aHR0cHM6Ly9ldmVudC5jZG4tZXp0cmF2ZWwuY29tLnR3L2hwaW1nL2FwcC9hcHBuZXdzLzI0OHgxNzBfMjAyMjA1MjUuanBn.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .box8{
-  background-color: #898484; 
   grid-area: box8;
   margin: 10px;
+  background-image: url("https://image.cdn-eztravel.com.tw/MrcYn7vhnVPpsBZ2iheyjCsLHGNXYdxxtrJEhd4TiVg/g:ce/q:95/aHR0cHM6Ly9ldmVudC5jZG4tZXp0cmF2ZWwuY29tLnR3L2hwaW1nL2FwcC8yNjZ4MjAwLzI2NngyMDBfZmxpZ2h0XzA0MjYuanBn.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .box9{
-  background-color: #898484; 
   grid-area: box9;
   margin: 10px;
+  background-image: url("https://image.cdn-eztravel.com.tw/4GODf7wAZdzQeUK17P07PO89M8cOXHZdX76sKoP4q8A/g:ce/q:95/aHR0cHM6Ly9ldmVudC5jZG4tZXp0cmF2ZWwuY29tLnR3L2hwaW1nL2FwcC8yNjZ4MjAwLzIwMjUxMjIzX2FwcF9maXJzdF9wdXJjaGFzZWRfMjAyNl9RMV8yNjZ4MjAwLmpwZw.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 
@@ -76,29 +107,44 @@ margin: 100px;
 
 
 .box10{
-  background-color: #898484; 
   grid-area: box10;
   margin: 10px;
+  background-image: url("https://image.cdn-eztravel.com.tw/WjidF3sc6lamzvaDykyIPaufcuS3SIrWi57zFB3sIa4/rs:fit:1000:600:1/g:ce/q:95/aHR0cHM6Ly92YWNhdGlvbi5jZG4tZXp0cmF2ZWwuY29tLnR3L2ltZy9WRFIvc3VtbWVyMjAyNl83Njh4NDAwLmpwZw.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .box11{
-  background-color: #898484; 
   grid-area: box11;
   margin: 10px;
+  background-image: url("https://image.cdn-eztravel.com.tw/y7AdNo2aNTF3DR7vHrk-B-CCVEKxFVvKB3F7TWvYer8/rs:fit:1000:600:1/g:ce/q:95/aHR0cHM6Ly92YWNhdGlvbi5jZG4tZXp0cmF2ZWwuY29tLnR3L2ltZy9WRFIvSlBfMjM4NjQyNzkxNS5qcGc.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .box12{
-  background-color: #898484; 
   grid-area: box12;
   margin: 10px;
+  background-image: url("https://image.cdn-eztravel.com.tw/GYKsrdZrCUD2aUvFhFOTLpvx34jsjZaFkvbA6hcfGXM/rs:fit:1000:600:1/g:ce/q:95/aHR0cHM6Ly92YWNhdGlvbi5jZG4tZXp0cmF2ZWwuY29tLnR3L2ltZy9WRFIvQVVfNTg5NjI2NTkzLmpwZw.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .box13{
-  background-color: #898484; 
   grid-area: box13;
   margin: 10px;
+  background-image: url("https://image.cdn-eztravel.com.tw/och2Vxcr9puw9ubb6o5sgrOPbRyDfzBmQLqC80Yep-c/rs:fit:1000:600:1/g:ce/q:95/aHR0cHM6Ly92YWNhdGlvbi5jZG4tZXp0cmF2ZWwuY29tLnR3L2ltZy9WRFIvSlBfMzg3MDk1MzExLmpwZw.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .box14{
-  background-color: #898484; 
   grid-area: box14;
   margin: 10px;
+  background-image: url("https://image.cdn-eztravel.com.tw/5xDP-9fpMY-pqrYLtlnXf1BeOCaskpBvQN3PvsosfoU/rs:fit:1000:600:1/g:ce/q:95/aHR0cHM6Ly92YWNhdGlvbi5jZG4tZXp0cmF2ZWwuY29tLnR3L2ltZy9GUk4vRlJOMDAwMDAxOTQyNS5naWY.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 
@@ -113,6 +159,7 @@ margin: 100px;
     "box16 box16 box19 box19 box19 box22 box22 box22"
     "box16 box16 box20 box20 box20 box23 box23 box23";
 }
+
 .box15{
   background-color: #ffffff; 
   grid-area: box15;
@@ -120,49 +167,111 @@ margin: 100px;
 }
 
 .box16{
-  background-color: #898484; 
   grid-area: box16;
   margin: 10px;
+  background-image: url("https://image.cdn-eztravel.com.tw/YKWC4UsjsQGE6IdaiXMnhhbTwZs-NfMPmtbZ3wp9QPg/rs:fit:1000:600:1/g:ce/q:95/aHR0cHM6Ly9ob3RlbC5jZG4tZXp0cmF2ZWwuY29tLnR3L2h0bC9odGYvZnJnL0ZYSC8lRTUlODUlQjYlRTQlQkIlOTYvJUU1JTg1JUE4JUU3JTkwJTgzJUU4JTg3JUFBJUU3JTk0JUIxJUU4JUExJThDXzI2NngyMDAuanBn.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .box17{
-  background-color: #ffffff; 
   grid-area: box17;
   margin: 10px;
+  background-image: url("");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .box18{
-  background-color: #898484; 
   grid-area: box18;
   margin: 10px;
+  background-image: url("https://image.cdn-eztravel.com.tw/vmeJWBmCchvVxWcsL5Et58OiNQZMNjM6hWb7vNys1HY/rs:fit:1000:600:1/g:ce/q:95/aHR0cHM6Ly9ob3RlbC5jZG4tZXp0cmF2ZWwuY29tLnR3L2h0Zi9mcmcvRlhIL2FyZWFfMjAzL-a-s-mWgDI2NlgyMDAuanBn.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .box19{
-  background-color: #898484; 
   grid-area: box19;
   margin: 10px;
+  background-image: url("https://image.cdn-eztravel.com.tw/6oquADtl2WX4Jts2PjwLoNXd2ZzrIDik0xPDY0W1DMg/rs:fit:1000:600:1/g:ce/q:95/aHR0cHM6Ly9ob3RlbC5jZG4tZXp0cmF2ZWwuY29tLnR3L2h0Zi9mcmcvRlhIL2FyZWFfMjAyL2Jhbmdrb2tfMDIuanBn.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .box20{
-  background-color: #898484; 
   grid-area: box20;
   margin: 10px;
+  background-image: url("https://image.cdn-eztravel.com.tw/S1rtfR0GUDbwKzUDo1tA4ezQdr-hASOrwM3BDanRcQQ/rs:fit:1000:600:1/g:ce/q:95/aHR0cHM6Ly9ob3RlbC5jZG4tZXp0cmF2ZWwuY29tLnR3L2h0Zi9mcmcvRlhIL2FyZWFfMjAxL29raW5hd2FfMDMuanBn.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .box21{
-  background-color: #898484; 
   grid-area: box21;
   margin: 10px;
+  background-image: url("https://image.cdn-eztravel.com.tw/nx8BUldCjiYaZzsu-PWg97095IUtKYBhS5kRScx6E00/rs:fit:1000:600:1/g:ce/q:95/aHR0cHM6Ly9ob3RlbC5jZG4tZXp0cmF2ZWwuY29tLnR3L2h0Zi9mcmcvRlhIL2FyZWFfMjAxL3Rva3lvXzAxLmpwZw.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .box22{
-  background-color: #898484; 
   grid-area: box22;
   margin: 10px;
+  background-image: url("https://image.cdn-eztravel.com.tw/Le8YGTXFZgglS6ddQsO37D-l5LmAz-omwZAaOYdemVo/rs:fit:1000:600:1/g:ce/q:95/aHR0cHM6Ly9ob3RlbC5jZG4tZXp0cmF2ZWwuY29tLnR3L2h0Zi9mcmcvRlhIL2FyZWFfMjAxL29zYWthXzAyLmpwZw.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .box23{
-  background-color: #898484; 
   grid-area: box23;
   margin: 10px;
+  background-image: url("https://image.cdn-eztravel.com.tw/lPBDNeXYDpVD_nLLSRbZ6ySoArw77gLOV9Kzs4OYksE/rs:fit:1000:600:1/g:ce/q:95/aHR0cHM6Ly9ldmVudC5jZG4tZXp0cmF2ZWwuY29tLnR3L2hwaW1nL2FwcC8yNjZ4MjAwLzI2NngyMDBfanhfbmdvLnBuZw.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bo {
+  grid-area: box;
+  margin: 10px;
+  background-image: url("");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
