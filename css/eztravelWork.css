@@ -5,7 +5,7 @@ height: 100%;
 
 .grid-area1{
   background-color: #ffffff;
-  height: 1010px;
+  height: 400px;
   display: grid;
   grid-template-areas:
     "box1 box2 box4 box6"
@@ -20,8 +20,7 @@ height: 100%;
 }
 
 .box1 {
-  height: 230px;
-  left: 330px;
+  height: 400px;
   grid-area: box1;
   margin: 10px;
   background-image: url("https://image.cdn-eztravel.com.tw/CsA2Go4BN9OvVkDgWEKu4RYhCz4Z-HeISatUOi3YZFU/g:ce/q:95/aHR0cHM6Ly9ldmVudC5jZG4tZXp0cmF2ZWwuY29tLnR3L2hwaW1nL2FwcC81NjB4ODIwLzU2MHg4MjBfMjAyNjA1YnJvczIuanBn.jpg");
